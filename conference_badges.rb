@@ -23,11 +23,7 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-  badges_and_room_assignments = [] 
-   
-  badges.each{|badge| badges_and_room_assignments.push(badge)}
-  room_assignments.each{|room| badges_and_room_assignments.push(room)}
-  puts badges_and_room_assignments()
+  
   
   
     
